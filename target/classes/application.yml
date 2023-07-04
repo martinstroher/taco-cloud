@@ -1,0 +1,16 @@
+spring:
+  data:
+    rest:
+      base-path: /data-api
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+    url: jdbc:h2:mem:tacocloud
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            clientId: 1224608624909755
+            clientSecret: 9cd430664a643d7f85fd76f90f4b948a
+            scope: email, public_profile
