@@ -14,3 +14,6 @@ spring:
             clientId: 1224608624909755
             clientSecret: 9cd430664a643d7f85fd76f90f4b948a
             scope: email, public_profile
+  jms:
+    template:
+      default-destination: tacocloud.order.queue
